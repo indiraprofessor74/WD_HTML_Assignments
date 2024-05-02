@@ -1,0 +1,15 @@
+table{
+  border: 0.2rem solid red;
+  border-collapse: collapse;
+  
+}
+.odd{
+  background-color: aqua;
+}
+.even{
+  background-color: bisque;
+}
+*
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

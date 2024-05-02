@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<title> Table Tag</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+<body>
+<Table>
+<tr>
+<th> S.No </th>
+<th> Name </th>
+<th> Roll No </th>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td> Raj </td>
+<td> 101 </td>
+</tr>
+
+<tr>
+<td> 2 </td>
+<td> Radhika </td>
+<td> 102 </td>
+</tr>
+</table>
+
+</body>
+</html>
