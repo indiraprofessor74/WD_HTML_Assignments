@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes moveimg{
+            0%{background-image: url("/images/bkground1.jpeg");}
+            20%{background-image: url("/images/bkground2.jpeg");}
+            40%{background-image: url("/images/bkground3.jpeg");}
+            60%{background-image: url("/images/bkground4.jpeg");}
+            80%{background-image: url("/images/bkground5.jpeg");}
+            100%{background-image: url("/images/bkground1.jpeg");}
+        }
+        body{
+            background-image: url("/images/bkground1.jpeg");
+            background-repeat: no-repeat;
+            background-size: 1600px 800px;
+            animation-name: moveimg;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
